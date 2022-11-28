@@ -1,0 +1,1298 @@
+@import './base/base';
+@import './base/variables.scss';
+@import './base/mixins.scss';
+@import url(fonts.css);
+
+
+
+.container {
+      width: 1440px;
+      margin: 0 auto;
+      background-color: #f2f2f2;
+
+.header-image {
+   width: 1440px;
+   height: 700px;
+   background-image: url(./Images/Dreamshare_desktop/Background.png);
+   background-size: cover;
+   margin: 0 auto;
+
+   .header-image__text {
+      display: flex;
+
+      .p1 {
+         font-family: 'Montserrat';
+         font-size: 20px;
+         font-weight: 700;
+         color: #FFFFFF;
+         margin: 48px 0 0 249px;
+
+      }
+      
+      
+      .p2 {
+         font-family: 'Montserrat';
+         font-size: 14px;
+         font-weight: 400;
+         color: #FFFFFF;
+         margin: 52px 0 0 596px;
+      }
+      .button1 {
+         width: 90px;
+         height: 36px;
+         color: #FFFFFF;
+         border: 1px solid #FFFFFF;
+         border-radius: 40px;
+         background-color: rgba(28, 28, 28, 0);
+         margin: 40px 0 0 19px;
+      }
+   }
+   }
+   
+
+   .header-image__mainText {
+      color: #FFFFFF;
+      text-align: center;
+
+      .h1 {
+        font-family: 'Montserrat';
+        font-size: 52px;
+        font-weight: 700;
+        margin: 152px 0 0 1px;
+      }
+
+      .h2 {
+        font-family: 'Montserrat';
+        font-size: 52px;
+        font-weight: 700;
+        margin: 12px 0 0 2px;
+      }
+
+      .p4 {
+         font-family: 'Roboto Light';
+         font-size: 24px;
+         font-weight: 300;
+         color: #F7F3F2;
+         margin: 35px 0 0 2px;
+      }
+
+      .button2 {
+         width: 225px;
+         height: 40px;
+         color: #FFFFFF;
+         font-family: 'Montserrat';
+         font-size: 14px;
+         background-color: #ff4e50;
+         border-color: #ff4e50;
+         border-radius: 40px;
+         border-width: 2px;
+         margin: 34px 0 0 610px;
+         display: block;
+      }
+   }
+}
+
+
+  /* второй блок */
+.howItWorks {
+   width: 940px;
+   height: 461px;
+   margin: 0 auto;
+
+        .howItWorks__text {
+              width: 940px;
+              height: 61px;
+              text-align: center;
+
+.p5 {
+   font-family: 'Montserrat';
+   font-size: 26px;
+   color: #444444;
+   margin: 93px 0 0 0;
+}
+        }
+
+              .howItWorks__img {
+                 width: 940px;
+                 height: 400px;
+                 display: flex;
+                 justify-content: space-between;
+                 align-items: center;
+                 margin: 0 auto;
+      
+                 .image1 {
+                    width: 300px;
+                    height: 400px;
+                    background-image: url(./Images/Dreamshare_desktop/Step1.png);
+      
+                    .step1 {
+                       width: 70px;
+                       height: 20px;
+                       background-color: #ff4e50;
+                       border-color: #ff4e50;
+                       border-radius: 40px;
+                       color: #FFFFFF;
+                       font-family: 'Montserrat';
+                       font-weight: 400;
+                       font-size: 10px;
+                       margin: 222px 0 0 24px;
+                    }
+                    .h3 {
+                       font-family: 'Montserrat';
+                       font-size: 24px;
+                       font-weight: 700;
+                       color: #FFFFFF;
+                       margin: 23px 0 0 26px;
+                    }
+                    .p6 {
+                       font-family: 'Roboto';
+                       font-size: 14px;
+                       font-weight: 300;
+                       color: #e3e3e3;
+                       margin: 27px 0 0 26px;
+                       width: 250px;
+                       height: 57px;
+                    }
+                 }
+      
+                 .image2 {
+                    width: 300px;
+                    height: 400px;
+                    background-image: url(./Images/Dreamshare_desktop/Step2.png);
+      
+                    .step2 {
+                       width: 70px;
+                       height: 20px;
+                       background-color: #ff4e50;
+                       border-color: #ff4e50;
+                       border-radius: 40px;
+                       color: #FFFFFF;
+                       font-family: 'Montserrat';
+                       font-weight: 400;
+                       font-size: 10px;
+                       margin: 253px 0 0 25px;
+                    }
+      
+                    .h4 {
+                       font-family: 'Montserrat';
+                       font-size: 24px;
+                       font-weight: 700;
+                       color: #FFFFFF;
+                       margin: 24px 0 0 26px;
+                    }
+      
+                    .p7 {
+                       font-family: 'Roboto';
+                       font-size: 14px;
+                       font-weight: 300;
+                       color: #e3e3e3;
+                       margin: 18px 0 0 26px;
+                       width: 250px;
+                       height: 57px;
+                    }
+                 }
+      
+                 .image3 {
+                    width: 300px;
+                    height: 400px;
+                    background-image: url(./Images/Dreamshare_desktop/Step3.png);
+      
+                    .step3 {
+                       width: 70px;
+                       height: 20px;
+                       background-color: #ff4e50;
+                       border-color: #ff4e50;
+                       border-radius: 40px;
+                       color: #FFFFFF;
+                       font-family: 'Montserrat';
+                       font-weight: 400;
+                       font-size: 10px;
+                       margin: 222px 0 0 24px;
+                    }
+                    .h3 {
+                     font-family: 'Montserrat';
+                     font-size: 24px;
+                     font-weight: 700;
+                     color: #FFFFFF;
+                     margin: 23px 0 0 26px;
+                  }
+                    .p6 {
+                     font-family: 'Roboto';
+                     font-size: 14px;
+                     font-weight: 300;
+                     color: #e3e3e3;
+                     margin: 27px 0 0 26px;
+                     width: 250px;
+                     height: 57px;
+                  }
+
+                 }
+}
+}
+/*третий блок*/
+.MeetPartner {
+   width: 941px;
+   height: 361px;
+   margin: 0 auto;
+
+   .MeetPartner__text {
+      width: 510px;
+      height: 32px;
+      margin: 0 auto;
+      text-align: center;
+
+      .p15 {
+         font-family: 'Montserrat';
+         font-size: 26px;
+         color: #444444;
+         margin: 95px 0 0 5px;
+      }
+   }
+
+   .MeetPartner__Person {
+      width: 941px;
+      height: 224px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      margin: 21px auto;
+
+      .person1 {
+         width: 221px;
+         height: 205px;
+
+         .p10 {
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 14px;
+            color: #444444;
+            margin: 21px 0 0 2px;
+         }
+
+         .p11 {
+            font-family: 'Roboto';
+            font-weight: 300;
+            font-size: 14px;
+            color: #666666;
+            text-align: center;
+            margin: 25px 0 0 3px;
+         }
+      }
+
+      .person2 {
+         width: 221px;
+         height: 205px;
+
+         .p10-1 {
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 14px;
+            color: #444444;
+            margin: 21px 0 0 -6px;
+         }
+
+         .p12 {
+            font-family: 'Roboto';
+            font-weight: 300;
+            font-size: 14px;
+            color: #666666;
+            text-align: center;
+            margin: 25px 0 0 -6px;
+         }
+      }
+
+      .person3 {
+         width: 221px;
+         height: 224px;
+         margin: 20px 0 0 -5px;
+
+         .p10-2 {
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 14px;
+            color: #444444;
+            margin: 21px 0 0 -3px;
+         }
+
+         .p13 {
+            font-family: 'Roboto';
+            font-weight: 300;
+            font-size: 14px;
+            color: #666666;
+            text-align: center;
+            margin: 27px 0 0 1px;
+         }
+      }
+
+      .person4 {
+         width: 221px;
+         height: 224px;
+         margin: 20px 0 0 -5px;
+
+         .p10-3 {
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 14px;
+            color: #444444;
+            margin: 21px 0 0 2px;
+         }
+
+         .p14 {
+            font-family: 'Roboto';
+            font-weight: 300;
+            font-size: 14px;
+            color: #666666;
+            text-align: center;
+            margin: 25px 0 0 1px;
+         }
+      }
+   }
+            .buttonPartners {
+               width: 180px;
+               height: 40px;
+               color: #ff4e50;
+               border-color: #ff4e50;
+               border-radius: 40px;
+               border-width: 2px;
+               margin: 0 auto;
+               display: block;
+               text-align: center;
+               font-family: 'Montserrat';
+               font-size: 14px;
+               font-weight: 700;
+               margin: 47px 0 0 382px;
+            }
+   
+}
+/* четвертый блок*/
+.Ideas {
+   width: 940px;
+   height: 1031px;
+   margin: 0 auto;
+
+
+   .Ideas-text {
+      width: 420px;
+      height: 32px;
+      margin: 0 auto;
+      text-align: center;
+
+      .p9 {
+         font-family: 'Montserrat';
+         font-size: 26px;
+         color: #444444;
+         margin: 95px 0 0 3px;
+
+      }
+   }
+
+   .Ideas-img {
+      width: 940px;
+      height: 970px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+
+      .Ideas-img__image1 {
+         width: 300px;
+         height: 310px;
+         background-image: url(./Images/Dreamshare_desktop/Sport.png);
+
+         .p8 {
+            font-family: 'Montserrat';
+            font-size: 22px;
+            font-weight: 700;
+            color: #FFFFFF;
+            text-align: center;
+            margin: 145px 0 0 0;
+         }
+      }
+
+      .Ideas-img__image2 {
+         width: 300px;
+         height: 310px;
+         background-image: url(./Images/Dreamshare_desktop/Healath.png);
+
+         .p8 {
+            font-family: 'Montserrat';
+            font-size: 22px;
+            font-weight: 700;
+            color: #FFFFFF;
+            text-align: center;
+            margin: 145px 0 0 0;
+         }
+      }
+
+      .Ideas-img__image3 {
+         width: 300px;
+         height: 310px;
+         background-image: url(./Images/Dreamshare_desktop/Extreme.png);
+
+         .p8-1 {
+            font-family: 'Montserrat';
+            font-size: 22px;
+            font-weight: 700;
+            color: #FFFFFF;
+            text-align: center;
+            margin: 132px 0 0 3px;
+            line-height: 23px;
+         }
+      }
+
+      .Ideas-img__image4 {
+         width: 300px;
+         height: 310px;
+         background-image: url(./Images/Dreamshare_desktop/Games.png);
+
+         .p8 {
+            font-family: 'Montserrat';
+            font-size: 22px;
+            font-weight: 700;
+            color: #FFFFFF;
+            text-align: center;
+            margin: 145px 0 0 0;
+         }
+      }
+
+      .Ideas-img__image5 {
+         width: 620px;
+         height: 310px;
+         background-image: url(./Images/Dreamshare_desktop/Culture.png);
+
+         .p8 {
+            font-family: 'Montserrat';
+            font-size: 22px;
+            font-weight: 700;
+            color: #FFFFFF;
+            text-align: center;
+            margin: 145px 0 0 0;
+         }
+      }
+
+      .Ideas-img__image6 {
+         width: 620px;
+         height: 310px;
+         background-image: url(./Images/Dreamshare_desktop/Relax.png);
+
+         .p8 {
+            font-family: 'Montserrat';
+            font-size: 22px;
+            font-weight: 700;
+            color: #FFFFFF;
+            text-align: center;
+            margin: 145px 0 0 0;
+         }
+      }
+
+      .Ideas-img__image7 {
+         width: 300px;
+         height: 310px;
+         background-image: url(./Images/Dreamshare_desktop/Trevelling.png);
+
+         .p8 {
+            font-family: 'Montserrat';
+            font-size: 22px;
+            font-weight: 700;
+            color: #FFFFFF;
+            text-align: center;
+            margin: 145px 0 0 0;
+         }
+      }
+   }
+
+   .image123 {
+      margin: 31px 0 0 0;
+   }
+
+   .image45 {
+      margin: 20px 0 0 0;
+   }
+
+   .image67 {
+      margin: 19px 0 0 0;
+   }
+
+}
+/* пятый блок*/
+.Interests {
+   width: 500px;
+   height: 158px;
+   margin: 0 auto;
+   text-align: center;
+
+   .Interests__h2 {
+      font-family: 'Montserrat';
+      font-size: 26px;
+      color: #444444;
+      margin: 95px 0 0 0px;
+   }
+
+   .Interests__p {
+      font-family: 'Roboto';
+      font-weight: 300;
+      font-size: 18px;
+      color: #666666;
+      margin: 54px 0 0 3px;
+   }
+   form {
+   .Interests__text {
+      font-family: 'Roboto';
+      font-size: 14px;
+      font-weight: 300;
+      color: #999999;
+      margin: 0 0 0 1px;
+      padding: 0 0 0 14px;
+   }
+   .Interests__submit {
+      background-color: #ff4e50;
+      color: #FFFFFF;
+      font-family: 'Montserrat';
+      font-size: 14px;
+      font-weight: 700;
+      border-radius: 40px;
+      border: none;
+      margin: 22px 0 0 9px;
+      width: 172.12px;
+      height: 40px;
+   }
+}
+}
+
+/*footer*/
+ .footer {
+   width: 1440px;
+   height: 224px;
+   display: flex;
+   margin: 103px auto;
+   border-top: 2px solid #ff4e50 ;
+ 
+.footer-dreamshare {
+   font-family:'Montserrat' ;
+   font-size: 16px ;
+   font-weight: 400;
+   color: #ff4e50;
+   margin: 38px 0 0 249px;
+}
+.footer-company {
+   font-family: 'Montserrat';
+   font-size: 14px;
+   font-weight: 700;
+   color: #444444;
+   margin: 39px 0 0 120px;
+   .footer-company__contact {
+      font-family: 'Roboto';
+      font-size: 14px;
+      font-weight: 300;
+      color: #999999;
+      margin: 12px 0 0 0;
+      line-height: 26px;
+   }
+}
+.footer-partners {
+   font-family: 'Montserrat';
+   font-size: 14px;
+   font-weight: 700;
+   color: #444444;
+   margin: 39px 0 0 127px;
+   
+}
+.footer-designed{
+.footer-designed__p {
+   font-family:'Montserrat';
+   font-size: 10px;
+   font-weight: 700;
+   letter-spacing: 1px;
+   color: #CCCCCC;
+   margin: 39px 0 0 318px;
+}
+.Bitmap {
+   margin: 7px 0 0 288px;
+}
+}
+ }
+
+@media screen and (max-width: 1439px) {
+ 
+.container {
+      width: 768px;
+
+      .header-image {
+         width: 768px;
+         height: 700px;
+         background-image: url(./Images/Tablet_Portrait/Background1.png);
+         background-size: cover;
+         margin: 0 auto;
+         .header-image__text {
+            .p1 {
+               margin: 49px 0 0 50px;
+            }
+            .p2 {
+               margin: 52px 0 0 364px;
+            }
+            .button1 {
+               margin: 40px 0 0 17px;
+            }
+         }
+         .header-image__mainText {
+            .h1 {
+               margin: 151px 0 0 1px;
+            }
+            .h2 {
+               margin: 12px 0 0 2px;
+            }
+            .button2 {
+               margin: 34px 0 0 273px;
+            }
+         }
+      }
+      
+   /* второй блок */
+   .howItWorks {
+      width: 748px;
+      height: 461px;
+      margin: 0 auto;
+
+      .howItWorks__text {
+         width: 748px;
+         height: 61px;
+         text-align: center;
+         .p5 {
+            font-family: 'Montserrat';
+            font-size: 22px;
+            color: #444444;
+            margin: 97px 0 0 2px; 
+         }
+      }
+
+      .howItWorks__img {
+         width: 748px;
+         height: 400px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin: -2px auto;
+         
+         .image1 {
+            width: 236px;
+            height: 400px;
+            background-image: url(./Images/Tablet_Portrait/Step1.png);
+            .step1 {
+               margin: 206px 0 0 20px;
+            }
+            .h3 {
+               margin: 45px 0 0 20px;
+               line-height: 14px;
+            }
+            .p6 { 
+               margin: 29px 0 0 20px;
+               width: 196px;
+               height: 76px;
+            }
+         }
+        
+         .image2 {
+            width: 236px;
+            height: 400px;
+            background-image: url(./Images/Tablet_Portrait/Step2.png);
+            .step2 {
+               margin: 255px 0 0 20px;
+            }
+            .h4 {
+               width: 198px;  
+               height: 29px;
+               margin: 16px 0 0 20px;
+               line-height: 14px;
+            }
+            .p7 { 
+               margin: 22px 0 0 21px;
+               width: 196px;
+               height: 76px;
+            }
+         }
+
+         .image3 {
+            width: 236px;
+            height: 400px;
+            background-image: url(./Images/Tablet_Portrait/Step3.png);
+            .step3 {
+               margin: 206px 0 0 20px;
+            }
+            .h3 {
+               margin: 45px 0 0 20px;
+               line-height: 14px;
+            }
+            .p6 { 
+               margin: 29px 0 0 20px;
+               width: 196px;
+               height: 76px;
+            }
+         }
+      }
+   }
+/*третий блок*/
+.MeetPartner {
+   width: 492px;
+   height: 605px;
+   margin: 0 auto;
+
+   .MeetPartner__text {
+      width: 416px;
+      height: 27px;
+      margin: 0 auto;
+      text-align: center;
+      .p15 {
+         font-family: 'Montserrat';
+         font-size: 22px;
+         color: #444444;
+         margin: 95px 0 0 -1px;
+      }
+   }
+
+   .MeetPartner__Person {
+      width: 492px;
+      height: 464px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      text-align: center;
+      margin: 11px auto;
+
+      .person1 {
+         width: 236px;
+         height: 205px;
+         order: 1;
+         .p10 { 
+            margin: 21px 0 0 -1px;
+         }
+         .p11 {
+            margin: 23px 0 0 0px;  
+         }
+      }
+
+      .person2 {
+         width: 236px;
+         height: 205px;
+         order: 3;
+         margin-top: 35px;
+         .p10-1 {  
+            margin: 21px 0 0 -2px;
+         }
+         .p12 {  
+            margin: 24px 0 0 0px;
+         }
+      }
+
+      .person3 {
+         width: 236px;
+         height: 224px;
+         order: 2;
+         .p10-2 {
+            margin: 21px 0 0 0px;
+         }
+         .p13 {
+            margin: 28px 0 0 -1px;
+         }
+      }
+
+      .person4 {
+         width: 236px;
+         height: 205px;
+         order: 4;
+         margin-top: 35px;
+         .p10-3 {
+            margin: 21px 0 0 0px;
+         }
+         .p14 {
+            margin: 23px 0 0 -1px;
+         }
+      }
+   }
+   .buttonPartners {
+      margin: 62px 0 0 158px;
+   }
+}
+   /* четвертый блок*/
+
+   .Ideas {
+      width: 748px;
+      height: 1031px;
+      margin: 0 auto;
+   
+   
+   .Ideas-text {
+      width: 350px;
+      height: 27px;
+      margin: 0 auto;
+      text-align: center;
+      .p9 {
+      font-family: "Montserrat";
+      font-size: 22px;
+      color: #444444;
+      margin: 95px 0 0 -1px;
+   }
+}
+   .Ideas-img {
+      width: 748px;
+      height: 970px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;  
+   
+   .Ideas-img__image1 {
+     width: 236px;
+     height: 310px;
+     background-image: url(./Images/Tablet_Portrait/Sport.png);
+     .p8{
+      margin: 115px 0 0 15px;
+      width: 206px;
+      height: 27px;
+      line-height: 28px;
+     }
+   }
+   
+   .Ideas-img__image2 {
+      width: 236px;
+      height: 310px;
+      background-image: url(./Images/Tablet_Portrait/Healath.png);
+      .p8 {
+         margin: 128px 0 0 15px;
+         width: 206px;
+         height: 27px;
+         line-height: 28px; 
+      }
+   }
+   
+   .Ideas-img__image3 {
+      width: 236px;
+      height: 310px;
+      background-image: url(./Images/Tablet_Portrait/Extreme.png);
+      .p8-1 {
+      margin: 130px 0 0 0px;
+      line-height: 26px;
+      }
+   }
+   
+   .Ideas-img__image4{
+      width: 236px;
+      height: 310px;
+      background-image: url(./Images/Tablet_Portrait/Games.png);
+   }
+   
+   .Ideas-img__image5{
+      width: 492px;
+      height: 310px;
+      background-image: url(./Images/Tablet_Portrait/Culture.png);
+   }
+   
+   .Ideas-img__image6{
+      width: 492px;
+      height: 310px;
+      background-image: url(./Images/Tablet_Portrait/Relax.png);
+   }
+   
+   .Ideas-img__image7{
+      width: 236px;
+      height: 310px;
+      background-image: url(./Images/Tablet_Portrait/Trevelling.png);
+   }
+}
+}
+/* пятый блок*/
+.Interests {
+   width: 489px;
+   height: 158px;
+   margin: 0 auto 99px;
+   text-align: center;
+   .Interests__h2 {
+      font-size: 22px;
+      margin: 95px 0 0 2px;
+   }
+   form {
+   .Interests__text {
+      margin: 10px 0 0 1px;
+      padding: 0 0 0 19px;
+   }
+   .Interests__submit {
+      margin: 22px 0 0 8px;
+      width: 172.12px;
+      height: 40px;
+   }
+}
+}
+
+ /*footer*/
+ .footer {
+    width: 768px;
+    height: 224px;
+    margin: 99px auto;
+    .footer-dreamshare {
+       margin: 37px 0 0 38px;
+    }
+    .footer-company {
+       margin: 39px 0 0 107px;
+       .footer-company__contact {
+          margin: 12px 0 0 0;
+          line-height: 26px;
+       }
+    }
+    .footer-partners {
+       margin: 39px 0 0 56px;
+    }
+    .footer-designed {
+       .footer-designed__p {
+          margin: 39px 0 0 149px;
+       }
+       .Bitmap {
+          margin: 7px 0 0 119px;
+       }
+    }
+ }
+ }
+ }
+ @media screen and (max-width: 767px) {
+ 
+.container {
+      width: 320px;
+   .header-image {
+      width: 310px;
+      height: 540px;
+      background-image: url(./Images/Mobile_Portrait/Background2.png);
+      background-size: cover;
+      margin-left: 10px;
+      .header-image__text {
+         .p1 {
+            margin: 155px 0 0 86px;
+         }
+         .p2 {
+            margin: 32px 0 0 -164px;
+         }
+         .button1 {
+            margin: 21px 0 0 18px;
+         }
+      }
+      .header-image__mainText {
+         .h1{
+          font-size: 30px;
+          margin: 32px 0 0 10px;
+         }
+         .h2{
+            font-size: 30px;
+            margin: 7px 0 0 10px;
+         }
+         .p4{
+            width: 280px;
+            height: 49px;
+            font-size: 18px;
+            margin: 10px 0 0 20px;
+            line-height: 23px;
+         }
+         .button2 {
+              width: 280px;
+              height: 40px;
+              margin: 14px 0 0 21px;
+         }
+      }
+   }
+ /* второй блок */
+ .howItWorks {
+    width: 300px;
+    height: 781px;
+    margin: 0 auto;
+
+    .howItWorks__text {
+       width: 300px;
+       height: 27px;
+       text-align: center;
+       .p5{
+         margin: 36px 0 0 1px;
+       }
+    }
+
+    .howItWorks__img {
+       width: 300px;
+       height: 740px;
+       display: flex;
+       flex-direction: column;
+       vertical-align: center;
+       margin: 14px auto;
+
+       .image1 {
+          width: 300px;
+          height: 240px;
+          background-image: url(./Images/Mobile_Portrait/Step1.png);
+          .step1 {
+            margin: 64px 0 0 18px;
+          }
+          .h3 {
+            line-height: 15px;
+          }
+          .p6 {
+            width: 250px;
+            height: 57px;
+            margin: 23px 0 0 20px;
+          }
+       }
+
+       .image2 {
+          width: 300px;
+          height: 240px;
+          background-image: url(./Images/Mobile_Portrait/Step2.png);
+          .step2 {
+            margin: 95px 0 0 18px;
+          }
+          .h4 {
+            width: 250px;
+            height: 29px;
+            margin: 29px 0 0 20px;
+          }
+          .p7 {
+            width: 250px;
+            height: 57px;
+            margin: 9px 0 0 20px;
+          }
+       }
+
+       .image3 {
+          width: 300px;
+          height: 240px;
+          background-image: url(./Images/Mobile_Portrait/Step3.png);
+          .step3 {
+            margin: 64px 0 0 18px;
+          }
+          .h3 {
+            line-height: 15px;
+          }
+          .p6 {
+            width: 250px;
+            height: 57px;
+            margin: 23px 0 0 20px;
+          }
+       }
+    }
+ }
+ /*третий блок*/
+.MeetPartner {
+   width: 280px;
+   height: 1031px;
+   margin: 0 auto;
+
+   .MeetPartner__text {
+      width: 280px;
+      height: 54px;
+      margin: 0 auto;
+      text-align: center;
+      .p15 {
+         margin: 40px 0 0 0px;
+         line-height: 25px;
+      }
+   }
+
+   .MeetPartner__Person {
+      width: 236px;
+      height: 887px;
+      margin: 5px auto;
+      text-align: center;
+
+      .person1 {
+         width: 236px;
+         height: 205px;
+         margin: 1px 0 0 0;
+      }
+
+      .person2 {
+         width: 236px;
+         height: 205px;
+         margin: 17px 0 0 0;
+      }
+
+      .person3 {
+         width: 236px;
+         height: 224px;
+         margin: 18px 0 0 0;
+      }
+
+      .person4 {
+         width: 236px;
+         height: 205px;
+         margin: 18px 0 0 0;
+      }
+   }
+
+   .buttonPartners {
+      width: 280px;
+      height: 40px;
+      margin: 41px 0 0 1px;
+   }
+}
+ /* четвертый блок*/
+ .Ideas {
+   width: 300px;
+   height: 987px;
+   margin: 0 auto;
+
+
+.Ideas-text {
+   width: 280px;
+   height: 54px;
+   margin: 0 auto;
+   text-align: center;
+   .p9{
+      margin: 31px 0 0 0;
+      line-height: 26px;
+   }
+}
+.Ideas-img {
+   width: 300px;
+   height: 900px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;  
+
+.Ideas-img__image1 {
+  width: 300px;
+  height: 120px;
+  background-image: url(./Images/Mobile_Portrait/Sport.png);
+  .p8 {
+   margin: 21px 0 0 47px;
+  }
+}
+
+.Ideas-img__image2 {
+   width: 300px;
+   height: 120px;
+   background-image: url(./Images/Mobile_Portrait/Healath.png);
+   margin: 10px 0 0 0;
+   .p8 {
+      margin: 35px 0 0 47px;
+   }
+}
+
+.Ideas-img__image3 {
+   width: 300px;
+   height: 120px;
+   background-image: url(./Images/Mobile_Portrait/Extreme.png);
+   margin: 12px 0 0 0 ;
+   .p8-1 {
+      margin: 33px 0 0 0;
+   }
+}
+
+.Ideas-img__image4{
+   width: 300px;
+   height: 120px;
+   background-image: url(./Images/Mobile_Portrait/Games.png);
+   margin: 9px 0 0 0;
+   .p8 {
+   margin: 50px 0 0 0;
+}
+}
+.Ideas-img__image5{
+   width: 300px;
+   height: 120px;
+   background-image: url(./Images/Mobile_Portrait/Culture.png);
+   margin: 10px 0 0 0;
+   .p8 {
+      margin: 49px 0 0 2px;
+   }
+}
+
+.Ideas-img__image6{
+   width: 300px;
+   height: 120px;
+   background-image: url(./Images/Mobile_Portrait/Relax.png);
+   margin: 10px 0 0 0;
+   .p8 {
+      margin: 49px 0 0 1px;
+   }
+}
+
+.Ideas-img__image7{
+   width: 300px;
+   height: 120px;
+   background-image: url(./Images/Mobile_Portrait/Trevellin.png);
+   margin: 12px 0 0 0;
+   .p8 {
+      margin: 49px 0 0 0;
+   }
+}
+ }
+}
+/* пятый блок*/
+.Interests {
+   width: 280px;
+   height: 192px;
+   margin: 0 auto;
+   text-align: center;
+   .Interests__h2 {
+      margin: 39px 0 0 0;
+   }
+   .Interests__p {
+      margin: 23px 0 0 3px;
+   }
+   form {
+   .Interests__text {
+         margin: 13px 0 0 0;
+         padding: 3px 0 0 13px;
+      }
+   .Interests__submit {
+         margin: 10px 0 0 0;
+         width: 280px;
+         height: 40px;
+         padding: 0 0 0 11px;
+      }
+   }
+   }
+
+/*footer*/
+.footer {
+   width: 320px;
+   height: 204px;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin: 35px auto;
+   .footer-dreamshare {
+      margin: 23px 0 0 4px;
+   }
+   .footer-company {
+      width: 240px;
+      margin: 16px 0 0 0;
+      .footer-company__contact {
+         width: 230px;
+         height: 68px;
+         font-size: 13px;
+         display: flex;
+         flex-wrap: wrap;
+         margin: 1px 0 0 10px;
+      .p20 {
+         padding-left: 17px;
+      }
+      .p21 {
+         margin: -14px -6px 0 28px;
+         padding-left: 3px;
+      }
+      }
+   }
+   .footer-partners {
+      margin: -8px 0 0 0 ;
+   }
+   .footer-designed {
+         .footer-designed__p {
+          margin: 16px 0 0 3px;
+         }
+         .Bitmap {
+          margin: 9px 0 0 0;
+         }
+      }
+   }
+}
+}
+ 
+ 
